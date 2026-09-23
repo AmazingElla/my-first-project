@@ -1,4 +1,4 @@
-numbers = [14, 3, 21, 8, 6, 19]
+numbers = [int(number)for number in input("Enter a list of numbers separated by spaces: ").split()]
 
 largest_num = None
 smallest_num = None
